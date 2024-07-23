@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "artillery": "^1.6.1",
-    "artillery-plugin-aws-sigv4": "file:../artillery-plugin-aws-sigv4",
+    "artillery-plugin-aws-sigv4-http": "file:../artillery-plugin-aws-sigv4",
     "aws-sdk": "^2.750.0"
   }
 }

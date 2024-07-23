@@ -1,17 +1,17 @@
-# artillery-plugin-aws-sigv4_v2
+# artillery-plugin-aws-sigv4-http
 A plugin for artillery.io that signs HTTP requests using the AWS Signature V4 specification.
 
 To use:
 
 1. `npm install -g artillery`
-2. `npm install -g artillery-plugin-aws-sigv4_v2`
-3. Add `aws-sigv4` plugin config to your "`hello.json`" Artillery script
+2. `npm install -g artillery-plugin-aws-sigv4-http`
+3. Add `aws-sigv4-http` plugin config to your "`hello.json`" Artillery script
 
     ```json
     {
       "config": {
         "plugins": {
-          "aws-sigv4": {
+          "aws-sigv4-http": {
              "serviceName": "execute-api"
            }
         }
