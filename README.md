@@ -4,7 +4,7 @@ A plugin for artillery.io that signs HTTP requests using the AWS Signature V4 sp
 To use:
 
 1. `npm install -g artillery`
-2. `npm install artillery-plugin-aws-sigv4_v2`
+2. `npm install -g artillery-plugin-aws-sigv4_v2`
 3. Add `aws-sigv4` plugin config to your "`hello.json`" Artillery script
 
     ```json
