@@ -1,7 +1,7 @@
 {
-  "name": "artillery-plugin-aws-sigv4",
-  "version": "0.0.5",
-  "description": "A plugin for artillery.io that add an authentication header to every request that conforms to V4 of the AWS Signature Specification.  See https://github.com/shoreditch-ops/artillery.  Also see http://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html.",
+  "name": "artillery-plugin-aws-sigv4_v2",
+  "version": "0.0.6",
+  "description": "A plugin for artillery.io that add an authentication header to every request that conforms to V4 of the AWS Signature Specification.  See https://github.com/shoreditch-ops/artillery.  Also see http://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html. This version fixes some problems of the original version that can be found here: https://github.com/nordstrom/artillery-plugin-aws-sigv4/",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && npm run jshint",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nordstrom/artillery-plugin-aws-sigv4.git"
+    "url": "git+https://github.com/rafaharo/artillery-plugin-aws-sigv4.git"
   },
   "keywords": [
     "artillery",
@@ -23,9 +23,9 @@
   "author": "Greg Smith <greg.w.smith@nordstrom.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/nordstrom/artillery-plugin-aws-sigv4/issues"
+    "url": "https://github.com/rafaharo/artillery-plugin-aws-sigv4/issues"
   },
-  "homepage": "https://github.com/nordstrom/artillery-plugin-aws-sigv4#readme",
+  "homepage": "https://github.com/rafaharo/artillery-plugin-aws-sigv4#readme",
   "peerDependencies": {
     "aws-sdk": "^2.750.0"
   },
@@ -41,6 +41,6 @@
     "asi": true
   },
   "dependencies": {
-    "aws-sdk": "^2.751.0"
+    "aws-sdk": "^2.750.0"
   }
 }
